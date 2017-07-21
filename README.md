@@ -21,6 +21,6 @@ export PROXY_TRACE=true
 
 NOTE: This utility requires Python3.
 
-Then run 'python3 simple_proxy.py' to forward all incoming request on PROXY_LOCAL (always http) to PROXY_TARGET (http/https).
+Then run `python3 simple_proxy.py` to forward all incoming request on PROXY_LOCAL (always http) to PROXY_TARGET (http/https).
 
 HTTP packets are unchanged except for references to PROXY_LOCAL replaced by PROXY_TARGET to ensure 100% transparent proxy behavior (a true man-in-the-middle behavior :-) even in gzip compressed bodies)
